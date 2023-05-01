@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  'Roboto', sans-serif;;
+}
+
+body{
+    background-color: rgb(32, 31, 31);
+    color: white;
+}
+
+.name {
+    font-family: 'Roboto', sans-serif;;
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    padding: 0;
+}
+
+nav {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 30px;
+}
+
+#sign-up {
+    background-color: blue;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10%;
+}
+
+.main-content {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.description {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.description > button {
+    width: max-content;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10%;
+}
+
+.image-container > img {
+    height: 400px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+.styled-name {
+    color: blue;
+}
+
+.social-media {
+    margin-left: 30px;
+}
